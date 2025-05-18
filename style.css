@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+
+p {
+  background-color: #D4A017;
+  color: black;
+  font-family: Arial, Verdana, Helvetica;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.contact-bar {
+  background: orange;
+  color: black;
+  padding: 10px 15vw; /* Uses viewport width for side spacing */
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-bar strong {
+  color: black;
+}
+
+.separator {
+  color: #999; /* Light gray color */
+  margin: 0 10px; /* Adds space to left and right */
+  background-color: orange;
+}
+
+.contact-bar a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease; /* 👈 smooth color transition */
+  background-color: orange;
+}
+
+.contact-bar a:hover {
+  color: #007f00; /* light green */
+  background-color: orange;
+}
+
+.hotline {
+  background-color: orange;
+  font-weight: bold;
+}
+
+.search-bar {
+  background: 
+}
